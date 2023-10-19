@@ -3,8 +3,6 @@ package org.example;
 import org.example.nums.BigNum;
 import org.example.operations.Operation;
 
-import java.math.BigInteger;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -37,7 +35,7 @@ public class App {
         System.out.println("Enter first hex number: ");
         String firstHex = scanner.nextLine();
         firstNum.setHex(firstHex);
-        System.out.println("Enter second hexNumber");
+        System.out.println("Enter second hex number");
         String secondHex = scanner.nextLine();
         secondNum.setHex(secondHex);
 
